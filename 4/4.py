@@ -1,4 +1,4 @@
-"""
+
 with open("1.txt","r") as f:
     total = 0
     for line in f:
@@ -10,7 +10,7 @@ with open("1.txt","r") as f:
             or (begin_second_range >= begin_first_range and end_second_range <= end_first_range):
           total += 1
     print(total)      
-"""
+
 
 with open("2.txt","r") as f:
     total = 0
